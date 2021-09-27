@@ -23,9 +23,9 @@ variable "imagebuild" {
   description = "Latest Image Build"
 }
 
-variable "client_secret" {
-  type = string
-}
+# variable "client_secret" {
+#   type = string
+# }
 
 
 resource "azurerm_resource_group" "tf_test" {
