@@ -22,7 +22,7 @@ stages:
     steps:
     - task: Docker@2
       inputs:
-        containerRegistry: 'Venusiian Docker Hub'
+        containerRegistry: 'VenusiianDockerHub'
         repository: 'venusiian/weatherapi'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
