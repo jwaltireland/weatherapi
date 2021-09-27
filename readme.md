@@ -1,0 +1,1 @@
+az login --service-principal -u f42fb729-f563-4794-ada0-8e93663042c2 -p Dt57Q~QFbgNOCcpJ.87lx837kD9z0Fd8PMH-N --tenant c63ce2df-d365-478d-9667-2d7b2ddbd810

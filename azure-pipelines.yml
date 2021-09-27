@@ -22,8 +22,8 @@ stages:
     steps:
     - task: Docker@2
       inputs:
-        containerRegistry: 'Binarythistle Docker Hub'
-        repository: 'binarythistle/weatherapi'
+        containerRegistry: 'Venusiian Docker Hub'
+        repository: 'venusiian/weatherapi'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: |
