@@ -21,7 +21,7 @@ variable "imagebuild" {
 
 resource "azurerm_resource_group" "tf_test" {
   name = "tfmainrg"
-  location = "Australia East"
+  location = "East US"
 }
 
 resource "azurerm_container_group" "tfcg_test" {
@@ -35,7 +35,7 @@ resource "azurerm_container_group" "tfcg_test" {
 
   container {
       name            = "weatherapi"
-      image           = "binarythistle/weatherapi:${var.imagebuild}"
+      image           = "venusiian/weatherapi:${var.imagebuild}"
         cpu             = "1"
         memory          = "1"
 
